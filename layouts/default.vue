@@ -181,7 +181,7 @@ export default {
           href: 'https://www.eventbrite.com/e/the-windsor-essex-google-developers-devfest-tickets-5488751002'
         }
       ],
-      title: 'GDG Windsor-Essex DevFest 2019',
+      title: 'GDG Great Lakes DevFest 2020',
       gdglogo: '../static/gdg.png'
     }
   }
