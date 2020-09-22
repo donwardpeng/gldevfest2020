@@ -29,12 +29,12 @@
       dark
       color="primary"
     >
-      <v-toolbar-title>
+          <v-toolbar-title>
           <router-link to="/" class="toolbar-title">{{title}}</router-link>
       </v-toolbar-title>
       <v-spacer />
       <v-toolbar-items class="hidden-sm-and-down" >
-        <v-menu offset-y>
+        <!-- <v-menu offset-y>
           <template v-slot:activator="{ on }">
             <v-btn flat v-on="on">
               Schedule
@@ -48,7 +48,7 @@
               <v-list-tile-title>High School Track</v-list-tile-title>
             </v-list-tile>
           </v-list>
-        </v-menu>
+        </v-menu> -->
         <v-btn v-for="item in items" :key="item.title" :href="item.href" :to="item.to" flat>
           {{item.title}}
         </v-btn>
@@ -57,12 +57,12 @@
       <v-menu  class="hidden-md-and-up"> 
         <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
         <v-list>
-          <v-list-tile :to="'/schedule/main-event'">
+          <!-- <v-list-tile :to="'/schedule/main-event'">
               <v-list-tile-title>Schedule: Main Event</v-list-tile-title>
           </v-list-tile>
           <v-list-tile :to="'/schedule/high-school-track'">
             <v-list-tile-title>Schedule: High School Track</v-list-tile-title>
-          </v-list-tile>
+          </v-list-tile> -->
           <v-list-tile
             v-for="item in items"
             :key="item.title"
@@ -115,7 +115,7 @@
       <v-divider></v-divider>
 
       <v-card-text class="primary darken-2">
-        &copy;2019 — <strong>GDG Windsor</strong>
+        &copy;2020 — <strong>GDG Ann Arbor, Detroit and Windsor</strong>
       </v-card-text>
     </v-card>
     </v-footer>
@@ -148,17 +148,13 @@ export default {
         //   to: '/'
         // },
         {
-          title: 'Venue Map',
-          href: '/map.png'
-        },
-        {
           title: 'Speakers',
           to: '/speakers'
         },
-        {
-          title: 'Slides',
-          to: '/slides'
-        },
+        // {
+        //   title: 'Slides',
+        //   to: '/slides'
+        // },
         // {
         //   title: 'Register',
         //   to: '/tickets'
@@ -177,8 +173,8 @@ export default {
           href: '/codeofconduct'
         },
         {
-          title: 'Get your ticket now!',
-          href: 'https://www.eventbrite.com/e/the-windsor-essex-google-developers-devfest-tickets-5488751002'
+          title: 'Apply to speak!',
+          href: 'https://sessionize.com/great-lakes-devfest/'
         }
       ],
       title: 'GDG Great Lakes DevFest 2020',

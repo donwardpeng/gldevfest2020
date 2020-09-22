@@ -1,340 +1,122 @@
-import amirfeizpour from "../static/speakers/amir_feizpour.jpeg";
-import sumitchandel from "../static/speakers/sumit_chandel.jpeg";
-import markkrysta from "../static/speakers/mark_kryska.jpg";
-import alielsharif from "../static/team/ali.png";
-import donward from "../static/team/don.png";
-import garyocoburn from "../static/speakers/gary_coburn.jpeg";
-import guaravkumarsingh from "../static/speakers/gaurav_kumar_singh.jpg";
-import jeanettewashington from "../static/speakers/jeannette_washington.jpg";
-import kylepaul from "../static/speakers/kylepaul.jpg";
-import kartikkuber from "../static/speakers/karthik_kuber.jpeg";
-import annielee from "../static/speakers/annie_lee.jpeg";
-import arafatkhan from "../static/speakers/arafat_khan.jpg";
-import christastephens from "../static/speakers/christa_stephens.png";
-import yvonnepilon from "../static/speakers/yvonne_pilon.jpg";
-import richardmccrae from "../static/speakers/richard_mccrae.jpeg";
-import briangernon from "../static/speakers/brian_gernon.png";
-import ikjotsaini from "../static/speakers/ikjot-saini.jpg";
-import shawnelliot from "../static/speakers/shawn_elliot.png";
-import frankabbruzzese from "../static/speakers/frank_abbruzzese.png";
-import braydenberson from "../static/speakers/brayden_berson.jpg";
+import kamal from "../static/speakers/kamal_shree.jpg";
+import bryce from "../static/speakers/bryce_howitson.jpg";
+import sherin from "../static/speakers/sherin_mathews.png";
+import andrey from "../static/speakers/andrey_sharapov.jpg";
+import dansullivan from "../static/speakers/dan_sullivan.jpg";
+import faisalabid from "../static/speakers/faisal_abid.jpg";
+import somaiehnikpoor from "../static/speakers/somaieh_nikpoor.png";
 
 export default [
   {
-    id: 'amir',
-    name: "Keynote Speaker - Amir Feizpour",
-    title: "Founder of Aggegate Intellect",
-    image: amirfeizpour,
+    id: 'faisak',
+    name: "Faisal Abid",
+    title:
+      "Google Developer Expert",
+    image: faisalabid,
     description:
-      'Amir Feizpour is the founder of <a href="https://ai.science/">Aggregate Intellect</a>, a company focused on making machine learning research and education more accessible, and runs a popular talk series called <a href="https://aisc.ai.science/">AISC</a>, on advanced machine learning topics. <p><p>Amir is a member of the steering committee of the Toronto Machine Learning Summit. In addition to these responsibilities, he is an NLP Product Lead on the Enterprise Data Science team at the Royal Bank of Canada. Prior to his current position, he held a post-doctoral position at the University of Oxford conducting research on experimental quantum computing. Amir holds a PhD in Physics from the University of Toronto.',
-    sessionTitle: "Bridging the AI Translation Gap",
-    session:"Canada has been the birth place for many AI breakthroughs but we are still far behind countries like the United States and China in terms of translating all the innovation and brain power into impactful technologies.<p><p>There is a larger challenge in Canada where we are producing tens of thousands of AI related papers every year globally, a large number of which, for good or bad reasons, go completely unnoticed, and the few ones that makes a splash rarely result in significant technological advances. This so called translation gap has existed in many areas but we now have a historical opportunity to address the problem more efficiently using AI. During this talk, Amir will share his thoughts about why this gap exists and more importantly why it is widening. Additionally he will share what some of the early signs are that we have an opportunity to reinvent the way we do inventions.",
-    slidedeck:"https://drive.google.com/open?id=0B1q5xwgmCYtRV2I5Z2ZjajJRYmFTeldaRWJJZUd1SjNWRUY4",
+      "Faisal is a Google Developer Expert, Entrepreneur, and Engineer. He is a programming language enthusiast and loves solving software engineering challenges across the stack.\n\nCurrently, you can find Faisal working on mobile applications in Flutter, building services with Tensorflow and writing backends in Dart or Node.js.",
+      sessionTitle: "",
+      session:"",
+      socials: {
+      twitter: "https://twitter.com/FaisalAbid",
+      linkedin: "https://www.linkedin.com/in/faisalabid/"
+    }
+  },
+  {
+    id: 'bryce',
+    name: "Bryce Howitson",
+    title:
+      "shepherd of ideas, designer of interfaces, writer of code, maker of prototypes",
+    image: bryce,
+    description:
+      "Bryce is obsessed with creating products that people want to use. He helps organizations of all sizes prototype, and test their ideas. Sometimes called a designer, a developer, a strategist, a writer or artist, Bryce has led teams and worked in the trenches. Bryce is a Google Developer Expert in UI/UX/Product/Web Technologies and certified Design Sprint Master. He shares his knowledge by mentoring and teaching from his homeland in the great frozen north of Minnesota.",
+      sessionTitle: "",
+      session:"",
+      socials: {
+      twitter: "https://twitter.com/howitson",
+      linkedin: "https://www.linkedin.com/in/brycehowitson"
+    }
+  },
+  {
+    id: 'sherin',
+    name: "Sherin Mathews",
+    title:
+      "Senior Data Scientist within the Office of the CTO for McAfee",
+    image: sherin,
+    description:
+      "Dr. Sherin Mathews is a Senior Data Scientist within the Office of the CTO for McAfee. In this role she creates and develops new machine learning models to improve and increase the effectiveness ofcybersecurity products. Sherin is a repeated and requested industry speaker on her research papers in areas of signal and image processing, machine learning, computer vision, artificial intelligence and cybersecurity. Prior to her role at McAfee, Sherin held research positions at Canon Inc. andIntel Corporation. She has a BSEE degree, with honors, from theUniversity of Mumbai and a MS in Electrical and Computer Engineering focused inSignal Processing and Wireless Communication from State University of New York,College at Buffalo. Additionally, Sherin has a MSEE in SoftwareEngineering & Signal Processing and a PhD in Machine Learning and SignalProcessing from the University of Delaware. She is a past recipient of theUniversity of Delaware Professional Development Award and received ninth place in the prestigious IEEE GRSS Data Fusion Contest.",
+      sessionTitle: "",
+      session:"",
+      socials: {
+      twitter: "https://twitter.com/Sherinmm19",
+      linkedin: "https://www.linkedin.com/in/sherin-mathews-09138359/ "
+    }
+  },
+  {
+    id: 'somaieh',
+    name: "Somaieh Nikpoor",
+    title:
+      "Research Advisor - AI/ML",
+    image: somaiehnikpoor,
+    description:
+      "Somaieh Nikpoor is a research advisor at the Labour Program. She is experimenting with machine learning models to explore whether these models could be used to improve service delivery. She enjoys turning data into numbers, numbers into words, words into stories and stories into action for her clients. She started her professional career on the Economics Ph.D. track. With an undergraduate background in mathematical economics, she started getting interested in programming and less interested in abstract academic research. She loves starting projects from scratch, working with clients to identify their business problems, strategizing analytic approaches, creating models using machine learning models and operationalizing these models to truly drive behaviour and improve decision making. Prior to joining Labour Program, Somaieh was a data analyst at the Advanced Analytics Lab residing in the Federal Government of Canada. Somaieh holds a Ph.D. in economics from the University of Ottawa. She is passionate about fairness in Artificial Intelligence and developing AI in a responsible way.",
+      sessionTitle: "",
+      session:"",
+      socials: {
+      // twitter: "https://twitter.com/FaisalAbid",
+      // linkedin: "https://www.linkedin.com/in/faisalabid/"
+    }
+  },
+  {
+    id: 'andrey',
+    name: "Andrey Sharapov",
+    title: "Senior Data Scientist and Machine Learning Engineer at Schwarz IT",
+    image: andrey,
+    description:
+      "Dr. Andrey Sharapov is a senior data scientist and machine learning engineer at Schwarz IT. He is currently working on various projects related to machine learning and data product development including analytical planning tools that help with business issues such as stocking and purchasing. Previously, he spent 2 years at Xaxis and he led data science initiatives and developed tools for customer analytics at TeamViewer. His interests lie in the area of explainable AI - a field that studies transparency and explainability of machine learning models.",
+    sessionTitle: "",
+    session:"",
+    slidedeck:"",
     socials: {
-      // facebook: 'https://facebook.com',
-      twitter: "https://twitter.com/amirfzpr",
+      // facebook: 'https://www.facebook.com/whatsupcoders',
+      // twitter: "https://twitter.com/whatsupcoders",
       // github: 'https://github.com',
-      linkedin: "https://www.linkedin.com/in/amirfzpr/"
+      // linkedin: "https://twitter.com/whatsupcoders"
     }
   },
   {
-    id: 'frank',
-    name: "Frank Abbruzzese",
-    title:
-      "President of AlphaKOR Group",
-    image: frankabbruzzese,
+    id: 'kamal',
+    name: "Kamal Shree",
+    title: "Freelance Android, Flutter Developer,Youtuber(Whatsupcoders)",
+    image: kamal,
     description:
-      "Frank Abbruzzese is the president of AlphaKOR Group, with over 31 years of experience in the Technology Sector.  Frank’ experiences include developing long-term relationships with companies and organizations, providing strategic planning for technology advancement, co-founder WEtech Alliance, Entrepreneur of the Year Chamber Business Excellence 2012, mentor and known as “The Connector”.",
-      sessionTitle: "Entrepreneurship in the Tech Sector",
-      session:"Frank Abbruzzese will share his experience as an entrepreneur in the local tech sector.",
-      socials: {
-      twitter: "https://twitter.com/FrankAbbruzzese",
-      linkedin: "https://linkedin.com/in/frankabbruzzese"
-    }
-  },
-  {
-    id: 'brayden',
-    name: "Brayden Berson",
-    title: "Technical Engineer, Simon Group Holdings",
-    image: braydenberson,
-    description:
-      "Brayden Berson in a recent graduate of Kettering University’s Mechanical Engineering program. He is currently employed by Simon Group Holdings as a technical engineer. His responsibilities include system level engineering of fuel dispensing units in the marine, international, and domestic markets. Brayden is currently listed on four pending patents for innovation in the marine fueling sector. Brayden explores software development during his free time including competing at the state level during his time in high school. He continues to implement feedback and monitoring technologies into new product designs in the oil and gas industry. Brayden currently resides in Harrison Charter township, MI with his girlfriend.",
-    sessionTitle: "Arduino Controllers and My Journey",
-    session:
-      "As part of our High School Track, Brayden will present an example project he implemented with Arduino controllers to demonstrate that the skills learned with these 'toy' projects can lead to real world projects down the road.",
+      'I am a software developer with 11 years of experience in Web Technologies, Android and Flutter. I have worked for multinational firms in India, the Netherlands. I am an active Youtuber(whatsupcoders) and an International Speaker.',
+    sessionTitle: "",
+    session:"",
+    slidedeck:"",
     socials: {
-      linkedin: "https://www.linkedin.com/in/brayden-berson-1bb267143/",
+      facebook: 'https://www.facebook.com/whatsupcoders',
+      twitter: "https://twitter.com/whatsupcoders",
+      // github: 'https://github.com',
+      linkedin: "https://twitter.com/whatsupcoders"
     }
   },
   {
-    id: 'gary',
-    name: "Gary Coburn",
-    title: "Google Cloud Customer Engineer",
-    image: garyocoburn,
+    id: 'dansullivan',
+    name: "Dan Sullivan",
+    title: "Author of the Official Google Cloud Certification Study Guides",
+    image: dansullivan,
     description:
-      "Gary is a Cloud Customer Engineer within Google's Customer Engineering group. In the past he has been purely infrastructure focused, architecting the entire storage and virtualization environment for a global manufacturing company through custom Dev/Ops and application development. He now spends time working in West Michigan to enable enterprise customers to utilize all of the great technology that Google has.",
-    sessionTitle: "Containers, Kubernetes, and the Multi-cloud journey",
-    session:
-      "Starting at the base of portability we will dive into containers as a delivery method for applications, how they are orchestrated and even how to deploy those across multiple clouds. This will highlight the both open source build your own, and the benefits of using Google Cloud technologies to move faster and manage the underlying components.",
+      'Dan is a Google Cloud expert and author of three official guides for Google certification exams: Cloud Engineer, Professional Data Engineer, and Professional Data Engineer. He is a software architect and data scientist with extensive experience in data science, big data, machine learning, stream processing, and cloud architecture. He has worked in a wide range of industries, including software, finance, healthcare, education, and government. He is the author of online courses that have been viewed over 1 million times, including courses on Google Cloud, data science, data modeling, and machine learning. He holds a Ph.D. in genetics, bioinformatics and computational biology.',
+    sessionTitle: "",
+    session:"",
+    slidedeck:"",
     socials: {
-      linkedin: "https://www.linkedin.com/in/garyocoburn/",
-      twitter: "https://twitter.com/coburngary"
+      // facebook: 'https://www.facebook.com/whatsupcoders',
+      // twitter: "https://twitter.com/whatsupcoders",
+      // // github: 'https://github.com',
+      // linkedin: "https://twitter.com/whatsupcoders"
     }
   },
-  {
-    id: 'sumit',
-    name: "Sumit Chandel",
-    title: "Sr Developer Advocate at Google",
-    image: sumitchandel,
-    description:
-      "Sumit Chandel works as a senior developer advocate on Firebase, focusing on developer outreach both digitally and in-person by presenting at conferences and meetups globally. <p><p>Previously, Sumit managed the AdWords API advocacy team, worked on Android Wear and Instant Apps, and was a developer programs engineer on the Google Web Toolkit. Prior to joining Google, Sumit was a software engineer at Motorola, Optimal Payments and Westfield Insurance Group.",
-    sessionTitle: "An Overview of Firebase",
-    session:"Firebase is Google's mobile platform that helps you quickly develop high-quality apps. Using Firebase, you have access to every service that a modern mobile and web app would need. Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users. During this discussion on Firebase, Sumit Chandel, a Senior Developer Advocate on Firebase will discuss all Firebase has to offer.",
-    socials: {
-      linkedin: "https://www.linkedin.com/in/sumit-chandel-a273792/",
-      twitter: "https://twitter.com/s_chande"
-    }
-  },
-  {
-    id: 'shawn',
-    name: "Shawn Elliot ",
-    title: "Director of Infrastructure at Atlas Oil",
-    image: shawnelliot,
-    description:
-      "Shawn Elliot is the Director of Infrastructure at Atlas Oil. He is an avant-garde of home automation and driven luminary in the IoT sector with a history of developing industry leading solutions.  His designs and patented technologies have helped shape the industry of Oil Field Services and Fuel Logistics. His focus includes setting the infrastructure roadmap for a company that leads innovation in the Oil & Energy industry, delivering business value, and ensuring the performance of 50+ remote mobile industrial hot-fueling units scattered across the globe. Shawn's passion for home automation grew from his love of technology and his need to push the limits of what's possible. His passions outside of work and technology include day trading on the high-end shoe market as a sneaker reseller and he was an early adopter of Stock-X.  He currently resides on Gross Isle in the Detroit Metro area with his beloved long-time girlfriend.",
-      sessionTitle: "An Overview of Google Home Automation",
-      session:"From your garage door to your thermostat, a tour of fun things you can do with Google home automation.",
-      socials: {
-      // facebook: "https://facebook.com/ali.elsharif.969",
-      // twitter: "https://twitter.com/elsharifali",
-      // github: "https://github.com/elsharifali",
-      linkedin: "https://www.linkedin.com/in/shawn-elliott-b6946922/"
-    }
-  },
-  {
-    id: 'ali',
-    name: "Ali El-Sharif",
-    title: "Business Intelligence Consultant at Motifworks",
-    image: alielsharif,
-    description:
-      "Ali El-Sharif lives in Windsor and works as a Business Intelligence Consultant for Motifworks in metro Detroit.  Ali is a Ph.D. candidate at Nova Southeastern University, conducting research in Machine Learning interpretability.",
-    sessionTitle: "Machine Learning Interpretability",
-    session:"Despite Machine Learning models being increasingly used in critical decision making and meeting classification accuracy standards, they remain untrusted black boxes due to decision makers lack of insight into their inner logic.  Therefore, it is necessary to develop interpretable Machine Learning models that will engender trust in the knowledge they generate and contribute to individual decision makers intention to adopt them in the field.  This talk will present the importance of Machine Learning interpretability, challenges to developing interpretable models and emerging research/techniques to make Machine Learning models more interpretable.",  
-    slidedeck:"https://drive.google.com/open?id=0B1q5xwgmCYtRRTdmeGdYemJweHRWMkkxa0JiOEVkSHllOXpN",
-    socials: {
-      // facebook: "https://facebook.com/ali.elsharif.969",
-      // twitter: "https://twitter.com/elsharifali",
-      // github: "https://github.com/elsharifali",
-      linkedin: "https://www.linkedin.com/in/elsharifali"
-    }
-  },
-  {
-    id: 'brian',
-    name: "Brian Gernon",
-    title:
-      "Account Executive, AlphaKOR Group",
-    image: briangernon,
-    description:
-      "Brian Gernon is passionate about business productivity and power of technology. He is an energetic innovator who strives to help clients improve productivity to their business challenges. Mr. Gernon serves as an active member of the Professional Engineers of Ontario. He holds two degrees from the University of Waterloo including a Masters degree in AI and a Bachelors degree in Mechanical Engineering.",
-    sessionTitle:"The Current State of Cyber Security",
-    session:"Brian provides a Cyber Security update based on a survey of 2500 software development shops across Canada in 2019. The presentation has unique visibility into the state of in the Ransomware from a perspective of developers who are dealing with these infections on a daily basis. Included are Ransomware analytics, impact, and strategies for ensuring recovery and continuity in the face of the growing threat.",
-      socials: {
-      linkedin: "https://www.linkedin.com/in/briangernon"
-    }
-  },
-  {
-    id: 'arafat',
-    name: "Arafat Khan",
-    title: "Developer at Shopify",
-    image: arafatkhan,
-    description:
-      "Arafat is a backend developer at Shopify.ca. He is fascinated by the mysteries of programming and logic. He loves experimenting and playing with code and this leads him to become the author of Tensorflow.rb ( The Ruby API of Tensorflow, the most popular Machine Learning Library). He has also made some interesting projects in Golang. <p><p>When he isn’t in front of his laptop he is hiking, kayaking, skating and doing all things outdoorsy.",
-    sessionTitle: "Introducing Tensorflow Ruby API",
-    session: "Ruby has been mostly restricted to web development and scripting, until now. In this talk, I will introduce Tensorflow.rb to the Ruby community to give them a glimpse of how they can do basic Machine Learning in Ruby.",
-    socials: {
-      // facebook: 'https://facebook.com',
-      // twitter: 'https://twitter.com',
-      github: " https://github.com/Arafatk"
-      // linkedin: "https://www.linkedin.com/in/markkryska/"
-    }
-  },
-  {
-    id: 'mark',
-    name: "Mark Kryska",
-    title: "VP of Technology, Atlas Oil",
-    image: markkrysta,
-    description:
-      "Mark Kryska is the Vice President Of Technology at Atlas Oil. He is an innovative and competent leader with a track record of meeting deadlines on high-impact projects that enhance performance, add value, effect change, drive profits and growth for diverse companies and organizations. His focus includes setting the IT strategy for a company that leads innovation in the Oil & Energy industry, Digital Transformation, and aligning IT to support business needs. Prior to his time at Atlas Oil he spent five years at Kelly Services, Inc where he was the Senior Director of Product Management & Strategy, and eight years working at Ernst & Young, LLP where he was a Manager in their Enterprise Intelligence practice. His relationship with innovation is driven by a love of mathematics and technology solutions. He received his undergraduate from University of Michigan in Computer Information Sciences and is currently enrolled in their MBA program. He currently resides in the Detroit Metro area with his wife and two children.",
-    sessionTitle:"From Invention to Implementation, Our Digital Transformation Journey",
-      socials: {
-      // facebook: 'https://facebook.com',
-      // twitter: 'https://twitter.com',
-      // github: 'https://github.com'
-      linkedin: "https://www.linkedin.com/in/markkryska/"
-    }
-  },
-  {
-    id: 'karthik',
-    name: "Karthik Kuber",
-    title: "Director of AI/ML, Loblaw Companies Limited",
-    image: kartikkuber,
-    description:
-      "Karthik Kuber is a Director of AI/ML at Loblaw Companies Limited and an adjunct instructor of Machine Learning at York University in Toronto. He has several years of academic research as well as applied data science experience primarily in the technology and banking sectors. His current interests are in exploring and applying various ML techniques in the context of large-scale engineering systems with a special emphasis on interpretability. Previously, he was at RBC in Toronto, at Microsoft in Redmond WA, and had received his PhD in 2014 from Syracuse University in Computer Science focusing on Evolutionary Computation. He is also an instructor and university ambassador for NVIDIA's Deep Learning Institute, has co-organised three editions of the International Workshop on Evolutionary Rule-based ML, and volunteers actively with DataKind on projects applying Data Science for social causes.",
-      sessionTitle: "The Ingredients of a Practical Course on ML at Scale for the Modern Data Scientist",
-      session: "Today’s data scientists have to be well-rounded! Not only do they need to understand the fundamentals of algorithms, basics of statistics/machine learning, and working with data, they should also be able to look at the problem from all angles and considerations - and one of them is scale. As data grows larger in size, complexity, or types, practitioners should still be able to work their magic! To this end, this talk will discuss the typical problems that occur at scale, infrastructure required, time/memory considerations, and working on the cloud, and how all of this is implemented in a hands-on ML program to prepare students for a successful career in data science.",
-      socials: {
-      // facebook: 'https://facebook.com',
-      // twitter: 'https://twitter.com',
-      // github: 'https://github.com'
-      linkedin: "https://www.linkedin.com/in/karthikkuber/"
-    }
-  },
-  {
-    id: 'annie',
-    name: "Annie Lee",
-    title: "Research Scientist at Stradigi AI",
-    image: annielee,
-    description:
-      "Dr. Lee is a Research Scientist in Natural Language Understanding at Stradigi AI.  Dr. Lee holds a PhD from the University of Waterloo at the Centre of Pattern Analysis and Machine Intelligence and has more than a decade of experience in data mining and machine learning. Dr. Lee's passion for finding patterns in society and in nature in the big data era has lead to dozens of publications in computational advertising, sentiment analysis, and sequence analysis, including a highly-read review paper on big data. Most notably, Dr. Lee developed interpretable unsupervised algorithms, which uncovered patterns utilizing clustering and partitioning of raw data and a priori knowledge.<p><p>Currently, at Stradigi AI, Dr. Lee designs competitive deep learning algorithms applied to document classification (such as sentiment analysis, topic classification), named entity recognition, and keyphrase extraction.  Previously, Dr. Lee was the Lead Research Scientist for the Data Science team at VerticalScope Inc., where she drove the efforts for the in-house academic research, algorithmic implementations, and evaluations on identifying product names, sentiments analysis towards product features, and topic modeling in order to generate key business insights for reporting brand and site health. <p><p>Dr. Lee has served as the funding chair for Broadening Participation in Data Mining co-hosted with KDD (Knowledge Discovery and Data Mining) and was a co-chair of Women in Machine Learning, co-hosted with Neural Information Processing Systems (NeurIPs, previously NIPS).",
-      sessionTitle:"Machine Learning Life-Cycle applied to Text Classification",
-      session:"In this session, Annie will be introducing the steps of machine learning life cycle by illustrating  applications to text classification.",
-    socials: {
-      // facebook: 'https://facebook.com/ali.elsharif.969',
-      // twitter: "https://twitter.com/godfreynolan",
-      // github: 'https://github.com/elsharifali',
-      linkedin: "https://www.linkedin.com/in/drannielee/"
-    }
-  },
-  {
-    id: 'richard',
-    name: "Richard McCrae",
-    title: "Independent Computer Software Professional",
-    image: richardmccrae,
-    description:
-      "Richard McCrae is a seasoned IT professional with 20 years of experience mostly in the automated testing arena.  For most of the last 15 years, he has been an independent consultant with Compulogic Corp in Michigan.  He completed his PhD in Computer Science from Nova Southeastern University in 2018.  He is primarily interested in AI, especially decision making.",   	
-      sessionTitle: "Feature Reduction Based on Performance and Cost",
-      session: "Neural Networks and Decision Trees are often used as classifiers, frequently with respect to medical diagnosis.  One issue is that all of the input features (tests) are determined and then the diagnosis is generated.  All tests have a cost which might include pain or discomfort, inconvenience, risk of present or future complications and, of course, the outright dollar cost.  Further, costs might be quite dynamic varying from person to person and place to place.  My approach selects a ‘good enough’ approach to the results obtained and was able to reduce the number of features required across a collection of different diagnoses and to dynamically respond to costs.  As a bonus, the results obtained were frequently better than those using all of the input features.",
-      slidedeck:"https://drive.google.com/open?id=0B1q5xwgmCYtRV25GZlgxbzN2Qklqc1RSczZrbldzR201R3NZ",
-      socials: {
-      // facebook: 'https://facebook.com/ali.elsharif.969',
-      // twitter: "https://twitter.com/godfreynolan",
-      // github: 'https://github.com/elsharifali',
-      linkedin: "https://www.linkedin.com/in/rick-mccrae-2057935"
-    }
-  },
-  {
-    id: 'kyle',
-    name: "Kyle Paul",
-    title: "Program Manager of Developer Ecosystems, Google",
-    image: kylepaul,
-    description:
-      "Kyle works for Google in Mountain View, California. His job on the Developer Relations team is to support awesome developer communities, like the Google Developer Groups. In his spare time he enjoys building and hacking on the web, playing with his two cats, and photographing the outdoors. Before Google, Kyle was a startup founder, organizer for GDG Kansas City, and a Google Developer Expert (GDE).",
-    sessionTitle:"What are Progressive Web Apps and How do they work?",
-    session:"The web is advancing at an alarming rate and browsers are providing new features giving web developers the ability to features to engage with mobile users. Using PWAs, web developers can provide 'app like' experiences for their web apps without the need for a native (or hybrid) app.",
-    socials: {
-      // facebook: 'https://facebook.com/ali.elsharif.969',
-      twitter: "https://twitter.com/_kylepaul",
-      // github: 'https://github.com/elsharifali',
-      linkedin: "https://www.linkedin.com/in/kylepaul/"
-    }
-  },
-  {
-    id: 'yvonne',
-    name: "Yvonne Pilon",
-    title: "President and CEO, WEtech Alliance",
-    image: yvonnepilon,
-    description:
-      'Yvonne Pilon is the President and CEO of WEtech Alliance, 1 of 17 Regional Innovation Centres funded by the Province of Ontario. At the age of 24, she founded her first tech venture, AD2IT, and by the age of 29, she became the youngest female to lead a Regional Innovation Centre. Yvonne has over 10 years experience in the tech sector with a core focus on growing companies and building a thriving entrepreneurial community. Yvonne recently took her love for tech to the airwaves as Host of the ‘Tech In The City’ podcast where she likes to consider herself the Carrie Bradshaw of tech. Yvonne was also just recognized as a Top Social Media Influencer in Canadian Tech. Follow her at @yvonnepilon.',
-    sessionTitle: "Get to Know & Get Plugged into the Windsor-Essex Tech Scene",
-    session: "The Windsor-Essex Tech Scene has a lot to offer! You need to be plugged into it - whether you are a student, professional or an employer. In this session, Yvonne will share how to uncover opportunities to network, land that prized tech job, tap into the pool of local tech talent, and connect with our region’s growing tech community and its programs, events and initiatives.",
-    slidedeck:"https://drive.google.com/open?id=0B1q5xwgmCYtRaGNSUGxxZzFaQmZBMS1hVFVWeVNFeXJwTExN",
-    socials: {
-      // facebook: 'https://facebook.com/ali.elsharif.969',
-      twitter: "https://twitter.com/yvonnepilon",
-      // github: 'https://github.com/elsharifali',
-      linkedin: "https://www.linkedin.com/in/yvonnepilon/"
-    }
-  },
-  {
-    id: 'ikjot',
-    name: "Ikjot Saini",
-    title: "Ph.D. Candidate",
-    image: ikjotsaini,
-    description:
-      "Ikjot Saini is pursuing her Ph.D. in Cybersecurity of Connected Vehicles in the School of Computer Science at the University of Windsor. Currently, her research focuses on the location privacy in vehicular networks. She is passionate about cyber security and given the breadth of this field, she has a keen interest to learn new tools and techniques. Her recent research interests focus on cybersecurity and privacy issues in Vehicular Ad hoc Networks, pseudonymous authentication and security credential management systems in the vehicular environment. She leads the Women in Cybersecurity (WiCyS) Windsor Student Chapter. Her community involvement includes different outreach events as Scientist Like Her, Soapbox Science and GoCodeGirl, where she presented and engaged with other young women to learn science and coding.",
-      sessionTitle:"A new Cyberspace of Connected Vehicles: Secure or Not?",
-      session:"The emerging technology of Connected Vehicles is dedicated for the increasing safety and prevention of the traffic congestion due to growing number of vehicles on the road. It provides communication services among nearby vehicles and with roadside infrastructure. This introduces a new cyberspace of talking vehicles. In this session, we will talk about the underlying potential security threats and privacy concerns of this technology.",
-      slidedeck:"https://drive.google.com/open?id=0B1q5xwgmCYtRS2dUaEpkNWx1S2hMSUxvWWlSUC02Vlc5OTEw",
-      socials: {
-      // facebook: 'https://facebook.com/ali.elsharif.969',
-      // twitter: 'https://twitter.com/godfreynolan',
-      // github: 'https://github.com/elsharifali',
-      linkedin: "https://www.linkedin.com/in/ikjotsaini/"
-    }
-  },
-  {
-    id: 'gaurav',
-    name: "Gaurav Kumar Singh",
-    title: "AV Research and Strategy, Ford Motor Company",
-    image: guaravkumarsingh,
-    description:
-      "Gaurav brings expertise on emerging technologies like artificial intelligence and data science. He also dabbles in technical strategy and planning of autonomous vehicles (AV). Through speaking and panel gigs, he has shared platforms with prominent researchers and stakeholders of (AV) technology and expanded his network.",
-      sessionTitle:"Enabling Technology behind Autonomous Vehicles",
-    socials: {
-      // facebook: 'https://facebook.com/ali.elsharif.969',
-      // twitter: 'https://twitter.com/godfreynolan',
-      // github: 'https://github.com/elsharifali',
-      linkedin: "https://www.linkedin.com/in/gauravgks/"
-    }
-  },
-  {
-    id: 'christa',
-    name: "Christa Stephens",
-    title: "Software Developer",
-    image: christastephens,
-    description:
-      "During my days of being a student at Grand Circus' Coding Boot camp in Detroit, I was under a lot of stress. My days would start at 6 am and end at 9 pm. \"Code Until Complete\" was my mantra. In addition to boot camp life, I had a regular life, being a mom and a wife, a yoga instructor, geologist, gardener...you get the picture. I have a ton of responsibilities with fewer hours than the next human to complete all of these things -successfully. How do I keep my sanity? Meditation and yoga. I began yoga as a weight-loss journey 10 years ago and found out that the practice held so much more than just some \"trendy diet fad\". Being a scientist, I delved deep into why meditation was calming. I needed to know how it worked and why the yoga poses (called asanas) aided in meditation. Although stress comes and goes, I have a toolkit of coping mechanisms to combat my \"mom list\" and the ability to debug any code you throw at me.",
-    sessionTitle:"OOP VS Dopamine Lead Programming",
-    session:"Do you remember when you wrote your first line of code? Or solved fizz-buzz? What about programming the Fibonacci sequence? I'm sure you felt like the smartest person that ever used an IDE (maybe replace with laptop). But how long did that feeling last? Maybe a few seconds – a minute, I\'m sure it wasn\'t a week, right? You went scurrying along to find the next \"big thing\" to crack. To prove to yourself that\" I\'m smart, I\'m a programmer and I know things\"! But did you realize that you were in a loop? Not a lame Do While loop or the far superior enhanced for loop, I\'m talking the Dopamine Loop. Instead of learning how to break out of the infinite loop of (insert infinite loop prob) you are continually feeding the infinite Dopamine Loop. Dopamine is a chemical that is produced by the body that pretty much gives us a \"gold star\" forever time we get something right. It helps us chase the next \"gold star\" but not the same gold star, oh no, this time the star must be bigger and brighter. Sounds a bit more powerful than the enhanced for-loop! With any loop, you need to create a break and step away from the computer. During my talk, we will discuss \"breaking the loop\" by:<p><p>*Understanding Dopamine *Understanding Cortisol *How These Chemicals Interact with the Body *Mindful Work *Meditation *Taking Breaks",
-    socials: {
-      // facebook: 'https://facebook.com/ali.elsharif.969',
-      // twitter: 'https://twitter.com/godfreynolan',
-      // github: 'https://github.com/elsharifali',
-      linkedin: "https://www.linkedin.com/in/christastephens/"
-    }
-  },
-  {
-    id: 'jeannette',
-    name: "Jeannette Washington",
-    title: "Founder of Bearly Articulating",
-    image: jeanettewashington,
-    description:
-      "I'm Jeannette Washington, M.Ed. I worked as a Speech Pathologist for a number of years before attending a coding bootcamp and transcending into a role with Microsoft teaching high school girls to code. My passion for exceptional learners has helped me ignite conversations across multiple dimensions of diversity in the tech industry. I currently teach introductory coding courses at Grand Circus Detroit and Im pioneering a company called Bearly Articulating, a concierge style, equity, diversity and inclusivity (D&I) think tank.",
-    sessionTitle: "The Mental Health Code",
-    session: "With 1 in 5 adults living with mental illness, such as depression and anxiety, it's safe to acknowledge that how we define diversity and inclusion has to evolve. Though noticeable efforts in intersections like race, class, gender and sexual identity have been made, when will mental health be apart of the diversity and inclusion pitch? <p><p>Learn ways that companies like Google are leading the charge to destigmatize mental health, understand your role in supporting mental health awareness and adopt techniques to safeguard your mental health while working on demanding projects. ",
-    slidedeck:"https://bit.ly/TheMentalCode",
-    socials: {
-      // facebook: 'https://facebook.com/ali.elsharif.969',
-      twitter: "https://twitter.com/BearlyArtic",
-      // github: 'https://github.com/elsharifali',
-      linkedin: "https://www.linkedin.com/in/jlrwashington/"
-    }
-  },
-  {
-    id: 'don',
-    name: "Don Ward",
-    title: "Senior Research Engineer at Quicken Loans",
-    image: donward,
-    description:
-      "Don Ward is a Senior Research Engineer at Quicken Loans, the nation's largest mortgage lender, which is based in Detroit, Michigan. As the previous Director of Mobile Development at Quicken Loans, he has been building mobile apps for the past 10 years. He leads the local chapters of the Google Developers Group in Detroit and Windsor, Canada. Always up for a good challenge, Don entered and won a 24-hour hackathon leveraging the power of wearables such as the Apple Watch. Recently, Don purchased an oversized boat and has been honing his captain skills on the Detroit River and Great Lakes. As an avid lover of all things Android, he's waiting on the boating industry to release an excellent Android chart plotter so he can write apps for his boat. To stay up-to-date with Don, follow him on Twitter at @donwardpeng.",
-    sessionTitle:"Flutter for Web",
-    session:"In this talk, we will talk about the current state of Flutter for Web and considerations for developing a website using it.",
-    slidedeck:"https://drive.google.com/file/d/1xBckKnrjf6nhGca6sGMFL3CRLLTGS4Hw/view?usp=sharing",
-    socials: {
-      facebook: "https://www.facebook.com/don.ward.395",
-      twitter: "https://twitter.com/donwardpeng",
-      github: "https://github.com/donwardpeng",
-      linkedin: "https://www.linkedin.com/in/donwardpeng/"
-    }
-  }
+  
 ]

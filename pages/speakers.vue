@@ -35,7 +35,7 @@
               </v-btn>
               <v-dialog v-model="dialog" width="600">
                 <template v-slot:activator="{ on }">
-                  <v-btn color="blue lighten-2" dark v-on="on">Session Info</v-btn>
+                  <v-btn color="blue lighten-2" dark v-on="on">Bio</v-btn>
                 </template>
 
                 <v-card>
@@ -48,9 +48,9 @@
                   </v-card-title>
 
                   <v-card-text>
-                    <p class="body-1">
+                    <!-- <p class="body-1">
                       <span v-html="speaker.session"></span>
-                    </p>
+                    </p> -->
                     <p class="body-1">
                       <span v-html="speaker.description"></span>
                     </p>
