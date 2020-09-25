@@ -177,7 +177,7 @@ export default {
           href: 'https://sessionize.com/great-lakes-devfest/'
         }
       ],
-      title: 'GDG Great Lakes DevFest 2020',
+      title: 'GDG Great North DevFest 2020',
       gdglogo: '../static/gdg.png'
     }
   }

@@ -3,7 +3,7 @@
     <v-layout row wrap>
       <v-flex xs12 md12>
         <v-card>
-          <img class="responsive" src="gdg-devfest-cool.png" style="padding: 10px; width: 100%;" />
+          <img class="responsive" src="gn-devfest.png" style="padding: 10px; width: 100%;" />
         </v-card>
       </v-flex>
       <!-- <v-flex xs12 md4>
@@ -32,10 +32,10 @@
       </v-flex>-->
       <v-flex xs12 md8>
         <v-card>
-          <v-card-title class="headline">What is the GDG Great Lakes DevFest?</v-card-title>
+          <v-card-title class="headline">What is the GDG Great North DevFest?</v-card-title>
           <v-card-text
             class="subheading"
-          >The Ann Arbor, Detroit and Windsor Google Developer Groups (GDGs) are excited to work together to host our the first GDG Great Lakes DevFest on Saturday, Oct 17, 2020. DevFests are Google sponsored software developer conferences that allow the local software development community to come together to network and learn about the coolest new technology out there.</v-card-text>
+          >The Ann Arbor, Detroit and Windsor Google Developer Groups (GDGs) along with GDG's across Canada are excited to work together to host our first GDG Great North DevFest on Saturday, Oct 17, 2020. DevFests are Google sponsored software developer conferences that allow the local software development community to come together to network and learn about the coolest new technology out there.</v-card-text>
         </v-card>
       </v-flex>
       <v-flex xs12 md4>
@@ -45,7 +45,7 @@
       </v-flex>
       <v-flex xs12 md12>
         <v-card>
-          <v-card-title class="headline">What can you expect at the GDG Great Lakes DevFest?</v-card-title>
+          <v-card-title class="headline">What can you expect at the GDG Great North DevFest?</v-card-title>
           <v-card-text
             class="subheading"
           >A full day of great talks on some of the latest Google technology out there with great opportunities to network within the local tech community. This year is unique for us since the conference will be entirely online - streamed and recorded. <p><p>The best part - it is all free!</p></p></v-card-text>
@@ -67,7 +67,7 @@
 <style scoped>
 .v-card {
   height: 100%;
-}
+} 
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
