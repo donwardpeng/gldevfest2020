@@ -173,8 +173,12 @@ export default {
           href: '/codeofconduct'
         },
         {
-          title: 'Apply to speak!',
+          title: 'Apply to speak',
           href: 'https://sessionize.com/great-lakes-devfest/'
+        },
+        {
+          title: 'Register here',
+          href: 'https://greatnorthdevfest.eventbrite.ca'
         }
       ],
       title: 'GDG Great North DevFest 2020',
