@@ -155,13 +155,13 @@ export default {
         //   title: 'Slides',
         //   to: '/slides'
         // },
-        // {
-        //   title: 'Register',
-        //   to: '/tickets'
-        // }
         {
           title: 'Sponsors',
           href: '/sponsors'
+        },
+        {
+          title: 'GDG Communities',
+          href: '/gdgs'
         },
         {
           title: 'Team',

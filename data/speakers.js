@@ -17,10 +17,13 @@ import medhaparlikar from "../static/speakers/Medha_Parlikar.jpg";
 import ashleynewton from "../static/speakers/Ashley_Newton.jpg";
 import navsingh from "../static/speakers/Nav_Singh.jpg";
 import kylepaul from "../static/speakers/Kyle_Paul.jpg"
+import godfreynolan from "../static/speakers/Godfrey_Nolan.jpg"
+import scottseighman from "../static/speakers/Scott_Seighman.jpg"
+import amansharma from "../static/speakers/Aman_Sharma.png"
 
 export default [
   {
-    id: 'faisal',
+    id: 'faisalabid',
     name: "Faisal Abid",
     title:
       "Google Developer Expert",
@@ -80,7 +83,7 @@ export default [
     }
   },
   {
-    id: 'bryce',
+    id: 'brycehowitson',
     name: "Bryce Howitson",
     title:
       "shepherd of ideas, designer of interfaces, writer of code, maker of prototypes",
@@ -95,7 +98,7 @@ export default [
     }
   },
   {
-    id: 'sherin',
+    id: 'sherinmathews',
     name: "Sherin Mathews",
     title:
       "Senior Data Scientist within the Office of the CTO for McAfee",
@@ -125,7 +128,7 @@ export default [
     }
   },
   {
-    id: 'somaieh',
+    id: 'somaiehnikpoor',
     name: "Somaieh Nikpoor",
     title:
       "Research Advisor - AI/ML",
@@ -140,7 +143,22 @@ export default [
     }
   },
   {
-    id: 'ofili',
+    id: 'godfreynolan',
+    name: "Godfrey Nolan",
+    title:
+      "President / Author / Speaker / Agile Mobile Testing Automation / Mobile Security / Teacher",
+    image: godfreynolan,
+    description:
+      "Godfrey Nolan is founder and president of RIIS LLC a mobile development firm in the Detroit Metro area. He is also author of Agile Swift (Apress), Agile Android (Apress), Bulletproof Android (Pearson), Android Best Practices (Apress), Decompiling Java (Apress) and Decompiling Android (Apress).",
+      sessionTitle: "Getting Started with TensorFlow Datasets",
+      session:"TensorFlow Datasets are the perfect next step to increase your Machine Learning experience. In this talk we\'ll take a look at working with these datasets to identify different types of dogs, plants and food. We\'ll provide colab notebooks for you to take home as well as pointers on where to find other interesting datasets.",
+      socials: {
+      //  twitter: "https://twitter.com/_KylePaul",
+      //  linkedin: "https://www.linkedin.com/in/kylepaul/"
+    }
+  },
+  {
+    id: 'chukaofili',
     name: "Chuka Ofili",
     title:
       "Google Developer Expert, Certified Cloud Architect",
@@ -170,7 +188,7 @@ export default [
     }
   },
   {
-    id: 'patlolla',
+    id: 'kanchanapatlolla',
     name: "Kanchana Patlolla",
     title:
       "Customer Engineer, Google",
@@ -215,7 +233,7 @@ export default [
     }
   },
   {
-    id: 'ross',
+    id: 'rickross',
     name: "Rick Ross",
     title:
       "Application Modernization Specialist at Google Cloud",
@@ -230,7 +248,24 @@ export default [
     }
   },
   {
-    id: 'andrey',
+    id: 'scottseighman',
+    name: "Scott Seighman",
+    title: "Solutions Architect and Open Source Operative at Red Hat",
+    image: scottseighman,
+    description:
+      "Scott Seighman is a Solutions Architect at Red Hat, the world\'s leading provider of open source software solutions. Scott has extensive experience in open source software architecture, development and (re)design from mobile to cloud. As part of the Solutions Architect team, he focuses on creating possibilities, solving problems, and spreading open source love across the Great Lakes region.",
+    sessionTitle: "Supersonic. Subatomic. Java.",
+    session:"In this session, we\'ll demonstrate how you can optimize your enterprise Java apps, your APIs, your microservices, and your serverless functions for a Kubernetes/OpenShift environment using Quarkus. Quarkus is a Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards. Learn how Quarkus is revolutionizing the way we develop Java applications for the cloud-native era and how it sparks developer joy.",
+    slidedeck:"",
+    socials: {
+      // facebook: 'https://www.facebook.com/whatsupcoders',
+      twitter: "https://twitter.com/clerhug",
+      // github: 'https://github.com',
+       linkedin: "https://www.linkedin.com/in/swseighman/"
+    }
+  },
+  {
+    id: 'andreysharapov',
     name: "Andrey Sharapov",
     title: "Senior Data Scientist and Machine Learning Engineer at Schwarz IT",
     image: andrey,
@@ -247,7 +282,24 @@ export default [
     }
   },
   {
-    id: 'kamal',
+    id: 'amansharma',
+    name: "Aman Sharma",
+    title: "CTO Twimbit, Lead Mobile-web.dev",
+    image: amansharma,
+    description:
+      "Co-Founder of twimbit.com, research tech company and Lead at mobile-web.dev, opensource mobile web community. He is a TechSpeaker and writes on AMP,PWA,Web,Cloud, ML/AI.",
+    sessionTitle: "Best first impression with AMP Sites",
+    session:"Most often, SEO and optamization comes as the last step of our site development. This leads to chaos and we end up having a site thats too hard to optamize. What if there was a way to optimize it with best practices right from the beginning. Here is where AMP comes in. In this talk you will learn about this amazing web framework that promises amazing performance and optamized SEO.",
+    slidedeck:"",
+    socials: {
+      // facebook: 'https://www.facebook.com/whatsupcoders',
+      twitter: "https://twitter.com/amanintech",
+      github: 'https://github.com/amanintech',
+      linkedin: "https://www.linkedin.com/in/amanintech/"
+    }
+  },
+  {
+    id: 'kamalshree',
     name: "Kamal Shree",
     title: "Freelance Android, Flutter Developer, Youtuber(Whatsupcoders)",
     image: kamal,
@@ -269,7 +321,7 @@ export default [
     title: "Android Developer at Manulife, Organizer at GDG Montreal",
     image: navsingh,
     description:
-      'Nav is a professional Android developer. Apart from his day to day job, he spends his time learning new technologies/frameworks. He is also an Organizer at GDG-Montreal. He also works as an Android instructor at Caster.io and mentor at Udacity. During his free he loves to watch Netflix, or you can find him at Gym.',
+      'Nav is a professional Android developer. Apart from his day to day job, he spends his time learning new technologies/frameworks. He is also an Organizer at GDG-Montreal.',
     sessionTitle: "Accessibility in an Android World",
     session:"Nav will talk about how to implement and test accessibility in Android apps. He will cover all the aspects including manual as well as automation testing. He will use theory as well as coding samples in this session.",
     slidedeck:"",
