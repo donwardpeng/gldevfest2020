@@ -35,7 +35,8 @@ export default [
       socials: {
       twitter: "https://twitter.com/FaisalAbid",
       linkedin: "https://www.linkedin.com/in/faisalabid/"
-    }
+    },
+    tags: 'Flutter',
   },
   {
     id: 'frankabbruzzese',
@@ -50,7 +51,8 @@ export default [
       socials: {
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
-    }
+    },
+    tags: 'Lightning Talk',
   },
   {
     id: 'chrisdemars',
@@ -60,12 +62,13 @@ export default [
     image: chrisdemars,
     description:
       "Chris DeMars is a front end developer turned developer advocate from Detroit, Michigan. For his community contributions, he holds awards as a Microsoft MVP in developer technologies, Google Developer Expert in web technologies, and is an Oracle Groundbreaker Ambassador. Chris loves coming up with solutions for all types of applications, which include modular CSS architectures, performance, and advocating for web accessibility. When he is not working on making the web great and inclusive you can find him writing blog posts, recording episodes of his podcast, Tales From The Script, or watching horror movies.",
-      sessionTitle: "",
-      session:"",
+      sessionTitle: "Believe in the Power of CSS",
+      session:"You know that song by Huey Lewis and the News, The Power of Love? \"First time you feel it, it might make you sad.\" Might be how you feel about CSS right? What about the power of CSS? CSS has received a bad name as of late, but truth of the matter is that CSS is such a powerful piece of the front-end puzzle and you should really be excited for what\'s already here and what\'s to come! <p><p>Who would have thought we could create magazine-style layouts with CSS grid? What about ruleset variable scoping with custom properties(CSS variables)? And last but not least, the pain of centering content horizontally and vertically which is now possible in three lines with flexbox! Let\'s talk about how awesome CSS is, and how we can restore our faith in one of the best things that makes the web amazing!",
       socials: {
       twitter: "https://twitter.com/saltnburnem",
       linkedin: "linkedin.com/in/chrisdemars/"
-    }
+    },
+    tags: 'Web',
   },
   {
     id: 'hassanhodges',
@@ -80,7 +83,8 @@ export default [
       socials: {
       // twitter: "https://twitter.com/howitson",
       // linkedin: "https://www.linkedin.com/in/brycehowitson"
-    }
+    },
+    tags: 'Lightning Talk',
   },
   {
     id: 'brycehowitson',
@@ -95,7 +99,8 @@ export default [
       socials: {
       twitter: "https://twitter.com/howitson",
       linkedin: "https://www.linkedin.com/in/brycehowitson"
-    }
+    },
+    tags: 'Web',
   },
   {
     id: 'sherinmathews',
@@ -110,7 +115,8 @@ export default [
       socials: {
       twitter: "https://twitter.com/Sherinmm19",
       linkedin: "https://www.linkedin.com/in/sherin-mathews-09138359/ "
-    }
+    },
+    tags: 'ML/AI',
   },
   {
     id: 'ashleynewton',
@@ -125,7 +131,8 @@ export default [
       socials: {
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
-    }
+    },
+    tags: 'Lightning Talk',
   },
   {
     id: 'somaiehnikpoor',
@@ -140,7 +147,8 @@ export default [
       socials: {
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
-    }
+    },
+    tags: 'ML/AI',
   },
   {
     id: 'godfreynolan',
@@ -155,7 +163,8 @@ export default [
       socials: {
       //  twitter: "https://twitter.com/_KylePaul",
       //  linkedin: "https://www.linkedin.com/in/kylepaul/"
-    }
+    },
+    tags: 'ML/AI',
   },
   {
     id: 'chukaofili',
@@ -165,12 +174,13 @@ export default [
     image: chuckaofili,
     description:
       "Chuka is a software architect and engineer with experience in product architecture, design, devops and full-stack development roles. He is currently a full-stack engineer and software architect (network) at Gigster, and previously co founded FieldInsight (a tech startup in Nigeria that seeks to help organizations across Africa get data to manage and monitor field workers through near real time visualizations).<p><p>Chuka is also a Google Developer Expert, Google Certified Professional Cloud Architect and a tech Mentor on the Google for Startups program. He maintains a personal blog for sharing on engineering/development & wherever possible speaks at conferences and events to share his knowledge.",
-      sessionTitle: "GitOps style CI/CD with Flux, Docker, Kubernetes, Helm",
+      sessionTitle: "GitOps Style CI/CD with Flux, Docker, Kubernetes, Helm",
       session:"",
       socials: {
        twitter: "https://twitter.com/chukaofili",
        linkedin: "https://www.linkedin.com/in/chukaofili"
-    }
+    },
+    tags: 'Cloud',
   },
   {
     id: 'medhaparlikar',
@@ -185,7 +195,8 @@ export default [
       socials: {
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
-    }
+    },
+    tags: 'Lightning Talk',
   },
   {
     id: 'kanchanapatlolla',
@@ -200,7 +211,8 @@ export default [
       socials: {
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
-    }
+    },
+    tags: 'ML/AI',
   },
   {
     id: 'kylepaul',
@@ -215,7 +227,8 @@ export default [
       socials: {
        twitter: "https://twitter.com/_KylePaul",
        linkedin: "https://www.linkedin.com/in/kylepaul/"
-    }
+    },
+    tags: 'Cloud',
   },
   {
     id: 'ashitaprasad',
@@ -230,7 +243,8 @@ export default [
       socials: {
        twitter: "https://twitter.com/ashitaprasad",
        linkedin: "linkedin.com/in/ashitaprasad"
-    }
+    },
+    tags: 'Flutter',
   },
   {
     id: 'rickross',
@@ -245,7 +259,8 @@ export default [
       socials: {
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
-    }
+    },
+    tags: 'Cloud',
   },
   {
     id: 'scottseighman',
@@ -262,7 +277,8 @@ export default [
       twitter: "https://twitter.com/clerhug",
       // github: 'https://github.com',
        linkedin: "https://www.linkedin.com/in/swseighman/"
-    }
+    },
+    tags: 'Cloud',
   },
   {
     id: 'andreysharapov',
@@ -271,7 +287,7 @@ export default [
     image: andrey,
     description:
       "Dr. Andrey Sharapov is a senior data scientist and machine learning engineer at Schwarz IT. He is currently working on various projects related to machine learning and data product development including analytical planning tools that help with business issues such as stocking and purchasing. Previously, he spent 2 years at Xaxis and he led data science initiatives and developed tools for customer analytics at TeamViewer. His interests lie in the area of explainable AI - a field that studies transparency and explainability of machine learning models.",
-    sessionTitle: "Explainable AI in retail",
+    sessionTitle: "Explainable AI in Retail",
     session:"In this talk, we will discuss recent progress in he area of Explainable AI and their applications in retail industry.",
     slidedeck:"",
     socials: {
@@ -279,7 +295,8 @@ export default [
       // twitter: "https://twitter.com/whatsupcoders",
       // github: 'https://github.com',
       // linkedin: "https://twitter.com/whatsupcoders"
-    }
+    },
+    tags: 'ML/AI',
   },
   {
     id: 'amansharma',
@@ -296,7 +313,8 @@ export default [
       twitter: "https://twitter.com/amanintech",
       github: 'https://github.com/amanintech',
       linkedin: "https://www.linkedin.com/in/amanintech/"
-    }
+    },
+    tags: 'Web',
   },
   {
     id: 'kamalshree',
@@ -313,7 +331,8 @@ export default [
       twitter: "https://twitter.com/whatsupcoders",
       // github: 'https://github.com',
       //linkedin: "https://twitter.com/whatsupcoders"
-    }
+    },
+    tags: 'Flutter',
   },
   {
     id: 'navsingh',
@@ -328,7 +347,8 @@ export default [
     socials: {
       twitter: "https://twitter.com/navczydev",
       linkedin: "https://www.linkedin.com/in/navczydev/"
-    }
+    },
+    tags: 'Mobile',
   },
   {
     id: 'dansullivan',
@@ -345,7 +365,8 @@ export default [
       // twitter: "https://twitter.com/whatsupcoders",
       // // github: 'https://github.com',
       // linkedin: "https://twitter.com/whatsupcoders"
-    }
+    },
+    tags: 'Cloud, AI/ML',
   },
   {
     id: 'elrayahyassir',
@@ -362,6 +383,7 @@ export default [
       // twitter: "https://twitter.com/whatsupcoders",
       // // github: 'https://github.com',
       // linkedin: "https://twitter.com/whatsupcoders"
-    }
+    },
+    tags: 'AI/ML',
   },
 ]

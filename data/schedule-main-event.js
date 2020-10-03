@@ -3,179 +3,224 @@ import _ from 'lodash'
 
 export default [
   {
-    time: '8:00 AM - 8:45 AM',
+    time: '11:00 AM - 11:30 AM EDT',
     tracks: [
       {
-        name: 'Registration & Networking',
-        location: 'Main Lobby, Odette Building',
-        subtitle: 'Check your names and get your schwag!',
+        name: '\'Virtual Doors\' Open',
+        // location: 'Main Lobby',
+        subtitle: 'Register and make sure your tech works.',
       }
     ]
   },
   {
-    time: '8:45 AM - 9:10 AM',
+    time: '11:30 AM - 12:00 PM EDT',
     tracks: [
       {
         name: 'Introductions',
-        location: 'Main Lobby, Odette Building',
+        subtitle: 'Introductions and instructions for the day.',
       }
     ]
   },
   {
-    time: '9:10 AM - 10:00 AM',
+    time: '12:00 PM - 12:45 PM EDT',
     tracks: [
       {
-        name: 'Keynote Speech - Bridging the AI Translation Gap',
-        location: 'Room 104 - Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'amir'})
+        name: _.find(speakers, {id: 'andreysharapov'}),
+        tag: _.find(speakers, {id: 'andreysharapov'}),
+        speaker: _.find(speakers, {id: 'andreysharapov'}),
+        description:_.find(speakers, {id: 'andreysharapov'})
+      },
+      {
+        name: _.find(speakers, {id: 'chukaofili'}),
+        tag:  _.find(speakers, {id: 'chukaofili'}),
+        speaker: _.find(speakers, {id: 'chukaofili'}),
+        description:_.find(speakers, {id: 'chukaofili'})
+      },
+      {
+        name: _.find(speakers, {id: 'kylepaul'}),
+        tag:  _.find(speakers, {id: 'kylepaul'}),
+        speaker: _.find(speakers, {id: 'kylepaul'}),
+        description:_.find(speakers, {id: 'kylepaul'})
+      },
+      {
+        name: _.find(speakers, {id: 'kamalshree'}),
+        tag:  _.find(speakers, {id: 'kamalshree'}),
+        speaker: _.find(speakers, {id: 'kamalshree'}),
+        description:_.find(speakers, {id: 'kamalshree'})
+      },
+    ]
+  },
+  {
+    time: '12:45 PM - 1:00 PM EDT',
+    tracks: [
+      {
+        name: 'Networking Break',
+        subtitle: 'Join us in our regional breakout rooms to network.',
       }
     ]
   },
   {
-    time: '10:10 AM - 10:55 AM',
+    time: '1:00 PM - 1:45 PM EDT',
     tracks: [
       {
-        name: 'The Ingredients of a Practical Course on ML at Scale for the Modern Data Scientist',
-        location: 'Room 104 - Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'karthik'})
+        name: _.find(speakers, {id: 'somaiehnikpoor'}),
+        tag: _.find(speakers, {id: 'somaiehnikpoor'}),
+        speaker: _.find(speakers, {id: 'somaiehnikpoor'}),
+        description:_.find(speakers, {id: 'somaiehnikpoor'})
       },
       {
-        name: 'Actions on Google',
-        location: 'Room 108, Odette Building',
-        speaker: _.find(speakers, {id: 'kyle'})
+        name: _.find(speakers, {id: 'godfreynolan'}),
+        tag:  _.find(speakers, {id: 'godfreynolan'}),
+        speaker: _.find(speakers, {id: 'godfreynolan'}),
+        description:_.find(speakers, {id: 'godfreynolan'})
       },
       {
-        name: 'The State of CyberSecurity Today',
-        location: 'Room 110, Odette Building',
-        speaker: _.find(speakers, {id: 'brian'})
+        name: _.find(speakers, {id: 'rickross'}),
+        tag:  _.find(speakers, {id: 'rickross'}),
+        speaker: _.find(speakers, {id: 'rickross'}),
+        description:_.find(speakers, {id: 'rickross'})
+      },
+      {
+        name: _.find(speakers, {id: 'frankabbruzzese'}),
+        tag:  _.find(speakers, {id: 'frankabbruzzese'}),
+        speaker: _.find(speakers, {id: 'frankabbruzzese'}),
+        description:_.find(speakers, {id: 'frankabbruzzese'})
+      },
+      {
+        name: _.find(speakers, {id: 'ashitaprasad'}),
+        tag:  _.find(speakers, {id: 'ashitaprasad'}),
+        speaker: _.find(speakers, {id: 'ashitaprasad'}),
+        description:_.find(speakers, {id: 'ashitaprasad'})
+      },
+    ]
+  },
+  {
+    time: '1:45 PM - 2:00 PM EDT',
+    tracks: [
+      {
+        name: 'Networking Break',
+        subtitle: 'Join us in our regional breakout rooms to network.',
       }
     ]
   },
   {
-    time: '11:05 AM - 11:50 AM',
+    time: '2:00 PM - 2:45 PM EDT',
     tracks: [
       {
-        name: 'Introducing Tensorflow Ruby API',
-        location: 'Room 104 - Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'arafat'})
+        name: _.find(speakers, {id: 'kanchanapatlolla'}),
+        tag: _.find(speakers, {id: 'kanchanapatlolla'}),
+        speaker: _.find(speakers, {id: 'kanchanapatlolla'}),
+        description:_.find(speakers, {id: 'kanchanapatlolla'})
       },
       {
-        name: 'An Overview of Firebase',
-        location: 'Room 108, Odette Building',
-        speaker: _.find(speakers, {id: 'sumit'})
+        name: _.find(speakers, {id: 'dansullivan'}),
+        tag:  _.find(speakers, {id: 'dansullivan'}),
+        speaker: _.find(speakers, {id: 'dansullivan'}),
+        description:_.find(speakers, {id: 'dansullivan'})
       },
       {
-        name: 'Enabling Technology behind Autonomous Vehicles',
-        location: 'Room 110, Odette Building',
-        speaker: _.find(speakers, {id: 'gaurav'})
+        name: _.find(speakers, {id: 'brycehowitson'}),
+        tag:  _.find(speakers, {id: 'brycehowitson'}),
+        speaker: _.find(speakers, {id: 'brycehowitson'}),
+        description:_.find(speakers, {id: 'brycehowitson'})
       },
       {
-        name: 'The Mental Health Code',
-        location: 'Room 112, Odette Building',
-        speaker: _.find(speakers, {id: 'jeannette'})
+        name: _.find(speakers, {id: 'hassanhodges'}),
+        tag:  _.find(speakers, {id: 'hassanhodges'}),
+        speaker: _.find(speakers, {id: 'hassanhodges'}),
+        description:_.find(speakers, {id: 'hassanhodges'})
+      },
+      {
+        name: _.find(speakers, {id: 'chrisdemars'}),
+        tag:  _.find(speakers, {id: 'chrisdemars'}),
+        speaker: _.find(speakers, {id: 'chrisdemars'}),
+        description:_.find(speakers, {id: 'chrisdemars'})
+      },
+    ]
+  },
+  {
+    time: '2:45 PM - 3:00 PM EDT',
+    tracks: [
+      {
+        name: 'Networking Break',
+        subtitle: 'Join us in our regional breakout rooms to network.',
       }
     ]
   },
   {
-    time: '12:00 PM - 1:00 PM',
+    time: '3:00 PM - 3:45 PM EDT',
     tracks: [
       {
-        name: 'Lunch',
-        location: 'Main Lobby, Odette Building',
+        name: _.find(speakers, {id: 'scottseighman'}),
+        tag: _.find(speakers, {id: 'scottseighman'}),
+        speaker: _.find(speakers, {id: 'scottseighman'}),
+        description:_.find(speakers, {id: 'scottseighman'})
+      },
+      {
+        name: _.find(speakers, {id: 'amansharma'}),
+        tag: _.find(speakers, {id: 'amansharma'}),
+        speaker: _.find(speakers, {id: 'amansharma'}),
+        description:_.find(speakers, {id: 'amansharma'})
+      },
+      {
+        name: _.find(speakers, {id: 'ashleynewton'}),
+        tag:  _.find(speakers, {id: 'ashleynewton'}),
+        speaker: _.find(speakers, {id: 'ashleynewton'}),
+        description:_.find(speakers, {id: 'ashleynewton'})
+      },
+      {
+        name: _.find(speakers, {id: 'faisalabid'}),
+        tag:  _.find(speakers, {id: 'faisalabid'}),
+        speaker: _.find(speakers, {id: 'faisalabid'}),
+        description:_.find(speakers, {id: 'faisalabid'})
+      },
+      {
+        name: 'Machine Learning Panel led by Ali El-Sharif',
+        subtitle:  'Join us for a Machine Panel to discuss the current challenges in ML.',
+      },
+    ]
+  },
+  {
+    time: '3:45 PM - 4:00 PM EDT',
+    tracks: [
+      {
+        name: 'Networking Break',
+        subtitle: 'Join us in our regional breakout rooms to network.',
       }
     ]
   },
   {
-    time: '1:00 PM - 1:45 PM',
+    time: '4:00 PM - 4:45 PM EDT',
     tracks: [
       {
-        name: 'Progressive Web',
-        location: 'Room 104 - Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'kyle'})
+        name: _.find(speakers, {id: 'sherinmathews'}),
+        tag: _.find(speakers, {id: 'sherinmathews'}),
+        speaker: _.find(speakers, {id: 'sherinmathews'}),
+        description:_.find(speakers, {id: 'sherinmathews'})
       },
       {
-        name: 'Containers, Kubernetes, and the Multi-cloud journey',
-        location: 'Room 108, Odette Building',
-        speaker: _.find(speakers, {id: 'gary'})
+        name: _.find(speakers, {id: 'elrayahyassir'}),
+        tag:  _.find(speakers, {id: 'elrayahyassir'}),
+        speaker: _.find(speakers, {id: 'elrayahyassir'}),
+        description:_.find(speakers, {id: 'elrayahyassir'})
       },
       {
-        name: 'OOP VS Dopamine Lead Programming',
-        location: 'Room 110, Odette Building',
-        speaker: _.find(speakers, {id: 'christa'})
+        name: _.find(speakers, {id: 'medhaparlikar'}),
+        tag:  _.find(speakers, {id: 'medhaparlikar'}),
+        speaker: _.find(speakers, {id: 'medhaparlikar'}),
+        description:_.find(speakers, {id: 'medhaparlikar'})
       },
       {
-        name: 'Get to Know & Get Plugged into the Windsor-Essex Tech Scene',
-        location: 'Room 112, Odette Building',
-        speaker: _.find(speakers, {id: 'yvonne'})
-      }
+        name: _.find(speakers, {id: 'navsingh'}),
+        tag:  _.find(speakers, {id: 'navsingh'}),
+        speaker: _.find(speakers, {id: 'navsingh'}),
+        description:_.find(speakers, {id: 'navsingh'})
+      },
+      {
+        name: 'Software Development Panel led by Don Ward',
+        subtitle:  'Join us for a panel discussion to discuss the current challenges Software Developers face.',
+      },
     ]
   },
-  {
-    time: '1:55 PM - 2:40 PM',
-    tracks: [
-      {
-        name: 'Machine Learning Life-Cycle applied to Text Classification',
-        location: 'Room 104 - Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'annie'})
-      },
-      {
-        name: 'Feature Reduction Based on Performance and Cost',
-        location: 'Room 108, Odette Building',
-        speaker: _.find(speakers, {id: 'richard'})
-      },
-      {
-        name: 'A new Cyberspace of Connected Vehicles: Secure or Not?',
-        location: 'Room 110, Odette Building',
-        speaker: _.find(speakers, {id: 'ikjot'})
-      },
-      {
-        name: 'From Invention to Implementation, Our Digital Transformation Journey',
-        location: 'Room 112, Odette Building',
-        speaker: _.find(speakers, {id: 'mark'})
-      }
-    ]
-  },
-  {
-    time: '2:40 PM - 3:10 PM',
-    tracks: [
-      {
-        name: 'Break',
-        location: 'Main Lobby, Odette Building',
-      }
-    ]
-  },
-  {
-    time: '3:10 PM - 3:55 PM',
-    tracks: [
-      {
-        name: 'Entrepreneurship in the Tech Sector',
-        location: 'Room 104 - Allan Conway Room , Odette Building',
-        speaker: _.find(speakers, {id: 'frank'})
-      },
-      {
-        name: 'An Overview of Google Home Automation',
-        location: 'Room 108, Odette Building',
-        speaker: _.find(speakers, {id: 'shawn'})
-      },
-      {
-        name: 'Machine Learning Interpretability',
-        location: 'Room 110, Odette Building',
-        speaker: _.find(speakers, {id: 'ali'})
-      },
-      {
-        name: 'Flutter for Web',
-        location: 'Room 112, Odette Building',
-        speaker: _.find(speakers, {id: 'don'})
-      }
-    ]
-  },
-  {
-    time: '4:00 PM - 4:30 PM',
-    tracks: [
-      {
-        name: 'Wrap Up & Prize Give Away',
-        location: 'Room 104 - Allan Conway Room , Odette Building',
-      }
-    ]
-  },
+  
 ]

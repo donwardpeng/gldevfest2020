@@ -156,6 +156,10 @@ export default {
         //   to: '/slides'
         // },
         {
+          title: 'Schedule',
+          to: '/schedule/main-event'
+        },
+        {
           title: 'Sponsors',
           href: '/sponsors'
         },
