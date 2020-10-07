@@ -48,6 +48,12 @@ export default [
         speaker: _.find(speakers, {id: 'kamalshree'}),
         description:_.find(speakers, {id: 'kamalshree'})
       },
+      {
+        name: _.find(speakers, {id: 'amansharma'}),
+        tag: _.find(speakers, {id: 'amansharma'}),
+        speaker: _.find(speakers, {id: 'amansharma'}),
+        description:_.find(speakers, {id: 'amansharma'})
+      },
     ]
   },
   {
@@ -155,12 +161,6 @@ export default [
         tag: _.find(speakers, {id: 'scottseighman'}),
         speaker: _.find(speakers, {id: 'scottseighman'}),
         description:_.find(speakers, {id: 'scottseighman'})
-      },
-      {
-        name: _.find(speakers, {id: 'amansharma'}),
-        tag: _.find(speakers, {id: 'amansharma'}),
-        speaker: _.find(speakers, {id: 'amansharma'}),
-        description:_.find(speakers, {id: 'amansharma'})
       },
       {
         name: _.find(speakers, {id: 'ashleynewton'}),

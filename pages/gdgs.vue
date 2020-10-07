@@ -27,6 +27,9 @@ import gdgmontreal from "../static/gdgs/GDG-Montreal.png"
 import gdgedmonton from "../static/gdgs/GDG-Cloud-Edmonton.png"
 import gfgcloudfredericton from "../static/gdgs/GDG-Cloud-Fredericton.png"
 import gdgvictoria from "../static/gdgs/GDG-Victoria.png"
+import gdgtoronto from "../static/gdgs/GDG-Toronto.png"
+import gdgwinnipeg from "../static/gdgs/GDG-Winnipeg.png"
+import gdgrichmond from "../static/gdgs/GDG-Richmond.png"
 
 export default {
   data: () => ({
@@ -75,11 +78,33 @@ export default {
       },
       {
         name: "",
+        image: gdgrichmond,
+        description:
+          '',
+        link:"https://www.meetup.com/Google-Developers-Group-GDG-Richmond",
+      },
+      {
+        name: "",
+        image: gdgtoronto,
+        description:
+          '',
+        link:"https://www.meetup.com/GDG-Toronto/",
+      },
+      {
+        name: "",
         image: gdgvictoria,
         description:
           '',
         link:"https://www.meetup.com/GDG-Victoria/",
       },
+            {
+        name: "",
+        image: gdgwinnipeg,
+        description:
+          '',
+        link:"https://www.meetup.com/GDG-Winnipeg/",
+      },
+
     ]
   })
 };

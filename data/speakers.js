@@ -20,6 +20,7 @@ import kylepaul from "../static/speakers/Kyle_Paul.jpg"
 import godfreynolan from "../static/speakers/Godfrey_Nolan.jpg"
 import scottseighman from "../static/speakers/Scott_Seighman.jpg"
 import amansharma from "../static/speakers/Aman_Sharma.png"
+import scottstoll from "../static/speakers/Scott_Stoll.jpg"
 
 export default [
   {
@@ -351,6 +352,24 @@ export default [
     tags: 'Mobile',
   },
   {
+    id: 'scottstoll',
+    name: "Scott Stoll",
+    title: "Flutter Community",
+    image: scottstoll,
+    description:
+      'Scott has been involved with Flutter since v0.0.14 (Alpha), working both nationally and internationally as a Flutter Developer and Content Creator. Additionally, he has spoken and taught on Flutter at convention events in the United States, Canada, and the United Kingdom, as well as many smaller groups and meetup organizations throughout the United States.',
+    sessionTitle: "Flutter: RenderFlex Nightmares! Rows and Columns Gone Horribly Wrong",
+    session:"\"RenderFlex children have non-zero flex but incoming height constraints are unbounded\"<p><p>You aren\'t crazy. You\'re not alone. Every Flutter developer has nightmares about seeing these words in the Red Screen of Death. It's like quicksand... The more you fight the deeper you sink, and the worse it gets.<p><p>\"I'm from the government, I'm here to help.\"<p><p>The trick to understanding why this happens is to understand a few different things, and then think about them together. Flexibles, flex, FlexFit, double.infinity, and Constraints can all come together to produce a reactive UI that works beautifully or a Red Screen of Death that will haunt your nightmares. In this talk, I\'ll help you learn how to kill the RenderFlex Boogeyman, and be just like John Wick.<p><p>",
+    slidedeck:"",
+    socials: {
+      // facebook: 'https://www.facebook.com/whatsupcoders',
+      twitter: "https://twitter.com/scottstoll2017",
+      // // github: 'https://github.com',
+      linkedin: "https://www.linkedin.com/in/scott-stoll-59722915a/"
+    },
+    tags: 'Cloud, AI/ML',
+  },
+  {
     id: 'dansullivan',
     name: "Dan Sullivan",
     title: "Author of the Official Google Cloud Certification Study Guides",
@@ -370,7 +389,7 @@ export default [
   },
   {
     id: 'elrayahyassir',
-    name: "Elrayah Yassir",
+    name: "Yassir Elrayah",
     title: "General Motors, Data Scientist",
     image: elrayahyassir,
     description:
