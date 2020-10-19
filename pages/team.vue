@@ -66,7 +66,7 @@
         {
           name: 'Ali El-Sharif',
           image: ali,
-          description: 'Ali is a Ph.D. candidate at Nova Southeastern University, conducting research in Machine Learning interpretability.',
+          description: 'Ali is a Ph.D. candidate at Nova Southeastern University, conducting research in Machine Learning interpretability.  He is a steering committee member of the Toronto based Aggregate Intellect where he hosts fellow researchers and practitioners discussing Machine Learning interpretability.  Ali enjoys volunteering for GDG Windsor.',
           socials: {
             // facebook: 'https://facebook.com/ali.elsharif.969',
             // twitter: 'https://twitter.com/elsharifali',

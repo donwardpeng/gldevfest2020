@@ -175,7 +175,13 @@ export default [
         description:_.find(speakers, {id: 'faisalabid'})
       },
       {
-        name: 'Machine Learning Panel led by Ali El-Sharif',
+        name: _.find(speakers, {id: 'scottstoll'}),
+        tag: _.find(speakers, {id: 'scottstoll'}),
+        speaker: _.find(speakers, {id: 'scottstoll'}),
+        description:_.find(speakers, {id: 'scottstoll'})
+      },
+      {
+        name: 'AI Ethics and Explainability Panel Discussion led by Ali El-Sharif',
         subtitle:  'Join us for a Machine Panel to discuss the current challenges in ML.',
       },
     ]
@@ -220,6 +226,16 @@ export default [
         name: 'Software Development Panel led by Don Ward',
         subtitle:  'Join us for a panel discussion to discuss the current challenges Software Developers face.',
       },
+    ]
+  },
+  {
+    time: '4:45 PM - 5:00 PM EDT',
+    tracks: [
+      {
+        name: 'Closing',
+        // location: 'Main Lobby',
+        subtitle: 'Closing Remarks',
+      }
     ]
   },
   

@@ -7,9 +7,9 @@
     <v-container grid-list-md>
       <v-layout row wrap>
         <v-flex xs10 md10 v-for="(sponsor, i) in sponsors" :key="i">
-          <v-card> 
-          <!-- :href="sponsor.link"> -->
-            <v-card-title class="headline">{{sponsor.name}}</v-card-title>            
+          <v-card>
+            <!-- :href="sponsor.link"> -->
+            <v-card-title class="headline">{{ sponsor.name }}</v-card-title>
             <v-img :src="sponsor.image"></v-img>
             <v-card-text>
               <p class="subheading">
@@ -36,17 +36,23 @@
     <h2 class="display-1 mb-1">Community Sponsors</h2>
     <v-container grid-list-md>
       <v-layout row wrap>
-        <v-flex xs10 md10 v-for="(community_sponsor, i) in community_sponsors" :key="i">
-          <v-card> 
-          <!-- :href="community_sponsor.link"> -->
-            <v-card-title class="headline">{{community_sponsor.name}}</v-card-title>
+        <v-flex
+          xs10
+          md10
+          v-for="(community_sponsor, i) in community_sponsors"
+          :key="i"
+        >
+          <v-card :href="community_sponsor.link">
+            <v-card-title class="headline">{{
+              community_sponsor.name
+            }}</v-card-title>
             <v-img :src="community_sponsor.image"></v-img>
             <v-card-text>
               <p class="body-1">
                 <span v-html="community_sponsor.description"></span>
               </p>
             </v-card-text>
-             <v-card-actions>
+            <v-card-actions>
               <v-btn
                 v-for="(link, platform) in community_sponsor.socials"
                 :key="link"
@@ -65,8 +71,8 @@
   </v-layout>
 </template>
 <script>
-import gdg from "../static/gdg_sponsor.png"
-import as from "../static/Arbormoon.png"
+import gdg from "../static/gdg_sponsor.png";
+import as from "../static/Arbormoon.png";
 import uofw from "../static/uofw.png";
 import coulter from "../static/coulter_software.jpg";
 import wetech from "../static/wetechalliance.png";
@@ -114,7 +120,7 @@ export default {
       //   image: coulter,
       //   description:
       //     "We build great software.\n We are a specialized team that provides common sense solutions to our customers problems. \nWe are experienced in designing and building web and mobile apps to help bring your business to the next level!\nContact us at: info@coulters.ca",
-      //   link: "https://www.coulters.ca/", 
+      //   link: "https://www.coulters.ca/",
       //   socials: {
       //     // facebook: 'https://www.facebook.com/UWindsor/',
       //     // twitter: 'https://twitter.com/uwindsor',
@@ -160,13 +166,12 @@ export default {
         image: as,
         description:
           'Arbormoon Software is Michigan’s premier mobile app developer. With over a 15 years in business, our apps have been recognized with industry awards and featured at SXSW, the App Store, and Google Play. We celebrate tech communities in SE Michigan. What can we build for you?.<p><p>Learn more at: <a href="https://www.arbormoon.com/">https://www.arbormoon.com/</a>',
-        link:"https://www.arbormoon.com/",
+        link: "https://www.arbormoon.com/",
         socials: {
           facebook: "https://facebook.com/arbormoon",
           twitter: "https://twitter.com/Arbormoon",
-          linkedin: "https://www.linkedin.com/company/arbormoon/"
-
-        }
+          linkedin: "https://www.linkedin.com/company/arbormoon/",
+        },
       },
       {
         name: "Google Developer Groups",
@@ -177,8 +182,9 @@ export default {
         socials: {
           // facebook: "https://www.facebook.com/WEtechAlliance",
           twitter: "https://twitter.com/gdg",
-          linkedin: "https://www.linkedin.com/showcase/community-groups-program-gdg"
-        }
+          linkedin:
+            "https://www.linkedin.com/showcase/community-groups-program-gdg",
+        },
       },
       {
         name: "WEtech Alliance",
@@ -189,9 +195,9 @@ export default {
         socials: {
           facebook: "https://www.facebook.com/WEtechAlliance",
           twitter: "https://twitter.com/WETECHALLIANCE",
-          linkedin: "https://www.linkedin.com/company/2252698/"
-        }
-      }
+          linkedin: "https://www.linkedin.com/company/2252698/",
+        },
+      },
     ],
     community_sponsors: [
       // {
@@ -208,18 +214,30 @@ export default {
       //   }
       // },
       {
+        name: "St Clair College",
+        image: stclair,
+        description: "",
+        // 'Passionate software and application developers drive our business.<p><p>We recognize that our team is at the heart of our business. That’s why we have spent nearly two decades carefully building, training & engaging highly-skilled IT and business professionals. Our culture revolves around making our team better at what they do – we invest in learning, exploring & changing technology.<p><p>Learn more at: <a href="https://riis.com/">https://riis.com/</a>',
+        link: "http://www.stclaircollege.ca/",
+        socials: {
+          // twitter: "https://twitter.com/riisllc",
+          // linkedin: "https://www.linkedin.com/company/155258/"
+        },
+      },
+      {
         name: "University of Windsor Google Developer Student Club",
         image: dsc,
         description:
           'Developer Student Clubs (DSC) is a program presented by Google Developers. DSCs are university based community groups for students. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community<p><p>Learn more at: <a href="https://sites.google.com/view/dscwindsor/home">https://sites.google.com/view/dscwindsor/home/</a>',
-        link:"https://sites.google.com/view/dscwindsor/home",
+        link: "https://sites.google.com/view/dscwindsor/home",
         socials: {
           // facebook: 'https://www.facebook.com/UWindsor/',
           // twitter: "https://twitter.com/hackforge",
           // github: 'https://github.com/donwardpeng',
           // linkedin: "https://www.linkedin.com/company/hackforge/about/"
-        }
+        },
       },
+
       // {
       //   name: "Hackforge",
       //   image: hackforge,
@@ -247,7 +265,7 @@ export default {
       //     linkedin: "https://www.linkedin.com/in/wicys-windsor-ab498218a/"
       //   }
       // }
-    ]
-  })
+    ],
+  }),
 };
 </script>

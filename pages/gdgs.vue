@@ -30,6 +30,7 @@ import gdgvictoria from "../static/gdgs/GDG-Victoria.png"
 import gdgtoronto from "../static/gdgs/GDG-Toronto.png"
 import gdgwinnipeg from "../static/gdgs/GDG-Winnipeg.png"
 import gdgrichmond from "../static/gdgs/GDG-Richmond.png"
+import gdgcloudthunderbay from "../static/gdgs/GDG-Cloud-Thunder-Bay.png"
 
 export default {
   data: () => ({
@@ -62,6 +63,14 @@ export default {
           '',
         link:"https://www.meetup.com/GDG-Fredericton-NB/",
       },
+              {
+        name: "",
+        image: gdgcloudthunderbay,
+        description:
+          '',
+        link:"https://www.meetup.com/GDG-Cloud-Thunder-Bay/",
+      },
+
       {
         name: "",
         image: gdgedmonton,
@@ -97,7 +106,7 @@ export default {
           '',
         link:"https://www.meetup.com/GDG-Victoria/",
       },
-            {
+        {
         name: "",
         image: gdgwinnipeg,
         description:

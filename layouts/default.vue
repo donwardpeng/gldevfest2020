@@ -176,10 +176,10 @@ export default {
           title: 'Code of Conduct',
           href: '/codeofconduct'
         },
-        {
-          title: 'Apply to speak',
-          href: 'https://sessionize.com/great-lakes-devfest/'
-        },
+        // {
+        //   title: 'Apply to speak',
+        //   href: 'https://sessionize.com/great-lakes-devfest/'
+        // },
         {
           title: 'Register here',
           href: 'https://greatnorthdevfest.eventbrite.ca'

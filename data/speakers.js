@@ -123,12 +123,12 @@ export default [
     id: 'ashleynewton',
     name: "Ashley Newton",
     title:
-      "Technical Writer, SaltStack",
+      "Technical Writer",
     image: ashleynewton,
     description:
-      "Ashley Newton is a Technical Writer at SaltStack and an organizer for Write the Docs Detroit. Formerly a freelancer, she takes an experimental and open-minded approach to writing. She feels passionately that open-sourcing knowledge, tools, and best practices is the best way to work smarter and get results.",
+      "Ashley Newton is a Technical Writer and an organizer for Write the Docs Detroit. Formerly a freelancer, she takes an experimental and open-minded approach to writing. She feels passionately that open-sourcing knowledge, tools, and best practices is the best way to work smarter and get results.",
       sessionTitle: "Open-minded collaboration at scale",
-      session:"The success of any tech company depends not just on innovation, but also on seamless communication - both between you and your team, as well as between your company and your users. Good documentation is key to transferring crucial knowledge to make sure no one gets left behind.<p><p>In her work as a Technical Writer at SaltStack, Ashley has relied on open-sourcing knowledge and processes to facilitate the flow of information. She\'ll share some of her successes and challenges in scaling software documentation to provide a better experience for everyone who reads - and writes - documentation.",
+      session:"The success of any tech company depends not just on innovation, but also on seamless communication - both between you and your team, as well as between your company and your users. Good documentation is key to transferring crucial knowledge to make sure no one gets left behind.<p><p>In her work as a Technical Writer, Ashley has relied on open-sourcing knowledge and processes to facilitate the flow of information. She\'ll share some of her successes and challenges in scaling software documentation to provide a better experience for everyone who reads - and writes - documentation.",
       socials: {
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
@@ -367,7 +367,7 @@ export default [
       // // github: 'https://github.com',
       linkedin: "https://www.linkedin.com/in/scott-stoll-59722915a/"
     },
-    tags: 'Cloud, AI/ML',
+    tags: 'Flutter',
   },
   {
     id: 'dansullivan',
