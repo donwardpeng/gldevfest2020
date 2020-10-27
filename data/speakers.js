@@ -53,6 +53,7 @@ export default [
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
     },
+    sessionRecording: "https://www.youtube.com/watch?v=PbHt6wos-3s",
     tags: 'Lightning Talk',
   },
   {
@@ -133,6 +134,7 @@ export default [
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
     },
+    sessionRecording: "https://www.youtube.com/watch?v=iQMzde6iV7Y",
     tags: 'Lightning Talk',
   },
   {
@@ -165,6 +167,7 @@ export default [
       //  twitter: "https://twitter.com/_KylePaul",
       //  linkedin: "https://www.linkedin.com/in/kylepaul/"
     },
+    sessionRecording: "https://www.youtube.com/watch?v=bXn-U55-6Zk",
     tags: 'ML/AI',
   },
   {
@@ -181,6 +184,7 @@ export default [
        twitter: "https://twitter.com/chukaofili",
        linkedin: "https://www.linkedin.com/in/chukaofili"
     },
+    sessionRecording: "https://www.youtube.com/watch?v=WHXr94sLXp0",
     tags: 'Cloud',
   },
   {
@@ -213,6 +217,7 @@ export default [
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
     },
+    sessionRecording: "https://www.youtube.com/watch?v=wurtsM3IOno",
     tags: 'ML/AI',
   },
   {
@@ -261,6 +266,7 @@ export default [
       // twitter: "https://twitter.com/FaisalAbid",
       // linkedin: "https://www.linkedin.com/in/faisalabid/"
     },
+    sessionRecording: "https://www.youtube.com/watch?v=JpHEiJiOJIM",
     tags: 'Cloud',
   },
   {
@@ -272,7 +278,7 @@ export default [
       "Scott Seighman is a Solutions Architect at Red Hat, the world\'s leading provider of open source software solutions. Scott has extensive experience in open source software architecture, development and (re)design from mobile to cloud. As part of the Solutions Architect team, he focuses on creating possibilities, solving problems, and spreading open source love across the Great Lakes region.",
     sessionTitle: "Supersonic. Subatomic. Java.",
     session:"In this session, we\'ll demonstrate how you can optimize your enterprise Java apps, your APIs, your microservices, and your serverless functions for a Kubernetes/OpenShift environment using Quarkus. Quarkus is a Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards. Learn how Quarkus is revolutionizing the way we develop Java applications for the cloud-native era and how it sparks developer joy.",
-    slidedeck:"",
+    sessionRecording:"",
     socials: {
       // facebook: 'https://www.facebook.com/whatsupcoders',
       twitter: "https://twitter.com/clerhug",
@@ -290,7 +296,7 @@ export default [
       "Dr. Andrey Sharapov is a senior data scientist and machine learning engineer at Schwarz IT. He is currently working on various projects related to machine learning and data product development including analytical planning tools that help with business issues such as stocking and purchasing. Previously, he spent 2 years at Xaxis and he led data science initiatives and developed tools for customer analytics at TeamViewer. His interests lie in the area of explainable AI - a field that studies transparency and explainability of machine learning models.",
     sessionTitle: "Explainable AI in Retail",
     session:"In this talk, we will discuss recent progress in he area of Explainable AI and their applications in retail industry.",
-    slidedeck:"",
+    sessionRecording:"",
     socials: {
       // facebook: 'https://www.facebook.com/whatsupcoders',
       // twitter: "https://twitter.com/whatsupcoders",
@@ -308,7 +314,7 @@ export default [
       "Co-Founder of twimbit.com, research tech company and Lead at mobile-web.dev, opensource mobile web community. He is a TechSpeaker and writes on AMP,PWA,Web,Cloud, ML/AI.",
     sessionTitle: "Best first impression with AMP Sites",
     session:"Most often, SEO and optamization comes as the last step of our site development. This leads to chaos and we end up having a site thats too hard to optamize. What if there was a way to optimize it with best practices right from the beginning. Here is where AMP comes in. In this talk you will learn about this amazing web framework that promises amazing performance and optamized SEO.",
-    slidedeck:"",
+    sessionRecording:"",
     socials: {
       // facebook: 'https://www.facebook.com/whatsupcoders',
       twitter: "https://twitter.com/amanintech",
@@ -326,7 +332,7 @@ export default [
       'I am a software developer with 11 years of experience in Web Technologies, Android and Flutter. I have worked for multinational firms in India, the Netherlands. I am an active Youtuber(whatsupcoders) and an International Speaker.',
     sessionTitle: "Flutter: The Wizards of Widgets",
     session:"In Flutter everything is a widget whether it could be customizing, extending or using the existing widgets from a rich catalog of a built-in UI components. You will leave this talk with a better understanding about where, when, and how to use widgets in your Flutter app.<p><ul><li>Create beautiful apps faster with Flutter’s collection of visual, structural, platform, and interactive widgets. In addition to browsing widgets by category, you can also see all the widgets.</li><li>Showcases some of the Flutter Widgets.</li><li>Creating Custom Reusable Widgets With each use case, the audience will discover the strength and utility of widgets in Flutter when applied to real-world programming instances.</li><p><p>The presentation will not only introduce what is latest, but it would also show how to achieve dynamic, interactive experiences.",
-    slidedeck:"",
+    sessionRecording:"",
     socials: {
       facebook: 'https://www.facebook.com/whatsupcoders',
       twitter: "https://twitter.com/whatsupcoders",
@@ -344,11 +350,12 @@ export default [
       'Nav is a professional Android developer. Apart from his day to day job, he spends his time learning new technologies/frameworks. He is also an Organizer at GDG-Montreal.',
     sessionTitle: "Accessibility in an Android World",
     session:"Nav will talk about how to implement and test accessibility in Android apps. He will cover all the aspects including manual as well as automation testing. He will use theory as well as coding samples in this session.",
-    slidedeck:"",
+    sessionRecording:"",
     socials: {
       twitter: "https://twitter.com/navczydev",
       linkedin: "https://www.linkedin.com/in/navczydev/"
     },
+    sessionRecording: "https://www.youtube.com/watch?v=g9KD16yBPGc",
     tags: 'Mobile',
   },
   {
@@ -360,7 +367,7 @@ export default [
       'Scott has been involved with Flutter since v0.0.14 (Alpha), working both nationally and internationally as a Flutter Developer and Content Creator. Additionally, he has spoken and taught on Flutter at convention events in the United States, Canada, and the United Kingdom, as well as many smaller groups and meetup organizations throughout the United States.',
     sessionTitle: "Flutter: RenderFlex Nightmares! Rows and Columns Gone Horribly Wrong",
     session:"\"RenderFlex children have non-zero flex but incoming height constraints are unbounded\"<p><p>You aren\'t crazy. You\'re not alone. Every Flutter developer has nightmares about seeing these words in the Red Screen of Death. It's like quicksand... The more you fight the deeper you sink, and the worse it gets.<p><p>\"I'm from the government, I'm here to help.\"<p><p>The trick to understanding why this happens is to understand a few different things, and then think about them together. Flexibles, flex, FlexFit, double.infinity, and Constraints can all come together to produce a reactive UI that works beautifully or a Red Screen of Death that will haunt your nightmares. In this talk, I\'ll help you learn how to kill the RenderFlex Boogeyman, and be just like John Wick.<p><p>",
-    slidedeck:"",
+    sessionRecording:"",
     socials: {
       // facebook: 'https://www.facebook.com/whatsupcoders',
       twitter: "https://twitter.com/scottstoll2017",
@@ -378,7 +385,7 @@ export default [
       'Dan is a Google Cloud expert and author of three official guides for Google certification exams: Cloud Engineer, Professional Data Engineer, and Professional Data Engineer. He is a software architect and data scientist with extensive experience in data science, big data, machine learning, stream processing, and cloud architecture. He has worked in a wide range of industries, including software, finance, healthcare, education, and government. He is the author of online courses that have been viewed over 1 million times, including courses on Google Cloud, data science, data modeling, and machine learning. He holds a Ph.D. in genetics, bioinformatics and computational biology.',
     sessionTitle: "Getting Started with Machine Learning in BigQuery",
     session:"This session will introduce BigQuery ML and demonstrate how to create, train, and apply machine learning models using only SQL in BigQuery.",
-    slidedeck:"",
+    sessionRecording:"",
     socials: {
       // facebook: 'https://www.facebook.com/whatsupcoders',
       // twitter: "https://twitter.com/whatsupcoders",
@@ -396,7 +403,7 @@ export default [
       'Mr Elrayah is a Data Scientist & Geospatial Analytics Specialist at General Motors an automotive company. His current role is to develop geospatial, statistical and machine learning models to solve real-world problems utilizing General Motors\' connected vehicles data. Mr. Elrayah hold a PhD in Technology with geospatial science specialization from Eastern Michigan University. Mr Elrayah presented his work at different conferences including ESRI and AICongress.',
     sessionTitle: "Geo-spatial Analytics and Machine Learning Utilizing Connected Vehicles Data",
     session:"In this presentation, a motivation example of advanced geospatial analyitcs and achine learnming will be given. For example, how to perfrom spatial join utilizing open source libraries and how to apply machine learning algorithms to generate predictive models utlizing connected vehicles data.",
-    slidedeck:"",
+    sessionRecording:"",
     socials: {
       // facebook: 'https://www.facebook.com/whatsupcoders',
       // twitter: "https://twitter.com/whatsupcoders",

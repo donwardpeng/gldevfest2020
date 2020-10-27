@@ -151,10 +151,10 @@ export default {
           title: 'Speakers',
           to: '/speakers'
         },
-        // {
-        //   title: 'Slides',
-        //   to: '/slides'
-        // },
+        {
+          title: 'Session Recordings',
+          to: '/session-recordings'
+        },
         {
           title: 'Schedule',
           to: '/schedule/main-event'
@@ -180,10 +180,10 @@ export default {
         //   title: 'Apply to speak',
         //   href: 'https://sessionize.com/great-lakes-devfest/'
         // },
-        {
-          title: 'Register here',
-          href: 'https://greatnorthdevfest.eventbrite.ca'
-        }
+        // {
+        //   title: 'Register here',
+        //   href: 'https://greatnorthdevfest.eventbrite.ca'
+        // }
       ],
       title: 'GDG Great North DevFest 2020',
       gdglogo: '../static/gdg.png'

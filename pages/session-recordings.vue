@@ -1,11 +1,12 @@
 <template>
   <v-layout column>
-    <h1 class="display-2 mb-2">Slide Decks</h1>
+    <h1 class="display-2 mb-2">Session Recordings</h1>
+    <h2 class="headline mb-2">Check out <a href="https://www.youtube.com/channel/UCkO23PzBIZlz_0OL8wKg3zg/">The Great North DevFest YouTube Channel</a> with all of the Sessions!</h2>
 
     <v-container grid-list-md>
       <v-layout row wrap>
-        <v-flex xs12 md6 v-for="(speaker, i) in speakersWithSlides" :key="i" v->
-          <v-card class="mb-4" height="100%" v-show="speaker.slidedeck" >
+        <v-flex xs12 md6 v-for="(speaker, i) in speakersWithSessionRecordings" :key="i" v->
+          <v-card class="mb-4" height="100%" v-show="speaker.sessionRecording" >
             <v-col>
               <!-- <v-flex xs4> -->
               <v-img :src="speaker.image" height="300px" width="400px"></v-img>
@@ -63,7 +64,7 @@
                   </v-card-actions> -->
                 </v-card>
               </v-dialog>
-              <v-btn color="blue lighten-2" class="mx-3" dark :href="speaker.slidedeck">Slide Deck</v-btn>
+              <v-btn color="blue lighten-2" class="mx-3" dark :href="speaker.sessionRecording">Session Recording</v-btn>
 
             </v-card-actions>
             
@@ -82,9 +83,9 @@ export default {
     speakers
   }),
   computed:{
-  speakersWithSlides: function() {
+  speakersWithSessionRecordings: function() {
     return this.speakers.filter(function(item) {
-      return item.slidedeck;
+      return item.sessionRecording;
     })
   }
 }
